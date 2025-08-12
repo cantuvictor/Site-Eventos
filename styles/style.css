@@ -5,7 +5,7 @@
 
 body { 
     box-sizing: border-box;
-    background-color: black;
+    background-color: #D5C7A3;
 }
 
 h1 {
@@ -13,18 +13,18 @@ h1 {
 }
 
 p {
-    color: #FAF9EE;
-    margin: 10px;
+    color: white;
+    margin: 5px;
     padding: 5px;
     border: 2px;
 }
 
 .titulo-destaque {
-    color: beige;
+    color: #F6F0F0;
 }
 
 .apresentacao{
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +34,7 @@ p {
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 25px;
 }
 
 .apresentacao-conteudo-titulo{
@@ -52,7 +52,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     color: white;
-    align-items: center;
+    align-items: flex-start;
     gap: 28px;
 }
 
@@ -60,9 +60,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 21.5px 0px;
+    padding: 15.5px 0px;
     border: 3px outset #D3AF37;
-    width: 378px;
+    width: 278px;
     text-align: center;
     border-radius: 20px;
     text-decoration: none;
