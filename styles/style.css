@@ -24,7 +24,7 @@ p {
 }
 
 .baron {
-   width: 400px;  /* largura */
+   width: 400px;
   height: auto; 
 }
 
@@ -92,16 +92,16 @@ p {
 
 .rodape {
     background-color: #F5EFE7;
-    padding: 24px;
+    padding: 20px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
-.rodape p {
+.Direitos {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -112,18 +112,19 @@ p {
     font-weight: 600;
     font-size: 18px;
     color: white;
-    margin: 0 5px;
+    margin: 0px 5px;
     padding: 10px 15px;
     text-decoration: none;
-}
-
-.cabecalho-menu-link:hover{
-    background-color: #272727;
+    display: flex;
+    align-items: center;
 }
 
 .cabecalho {
-    padding: 2% 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3E5879;
+    height: 70px;
 }
 
 .cabecalho-menu {
